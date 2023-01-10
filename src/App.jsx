@@ -12,7 +12,7 @@ function App() {
       </header>
       <main>
         <Switch>
-          <Route path="/">
+          <Route path="/" exact>
             <Redirect to="/welcome" />
           </Route>
 
